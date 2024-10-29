@@ -1,0 +1,22 @@
+{
+  "name": "abrestan/abrestan",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "yaghootweb",
+      "email": "yaghootweb@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-openssl": "*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ABR\\": "./inc"
+    }
+  }
+}
